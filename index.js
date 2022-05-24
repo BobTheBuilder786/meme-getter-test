@@ -12,7 +12,7 @@ axios.get('https://meme-api.herokuapp.com/gimme/'+ red)
 
     // handle success
 
-    console.log(response);
+    console.log(response.data.ups);
 
   })
 
