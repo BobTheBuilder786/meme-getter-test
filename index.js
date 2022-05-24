@@ -5,7 +5,7 @@ const axios = require('axios').default;
 function everyTime() {
     
 // Make a request for a user with a given ID
-var array = ["AdviceAnimals","MemeEconomy","MemeCemetery","memes","dankmemes","PrequelMemes","funny","teenagers"]
+var array = ["AdviceAnimals","MemeCemetery","memes","dankmemes","PrequelMemes","funny","teenagers"]
 var red = array[Math.floor(Math.random() * array.length)]
 axios.get('https://meme-api.herokuapp.com/gimme/'+ red)
   .then(function (response) {
