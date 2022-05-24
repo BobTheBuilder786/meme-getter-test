@@ -14,7 +14,7 @@ axios.get('https://meme-api.herokuapp.com/gimme/'+ red)
     var url = response.data.url
     var cap = response.data.title
   
-  if (ups> 750){
+  if (ups> 1756){
   console.log(`Meme Found: caption: ${cap} subreddit:${red} url:${url}`)
   
   }
