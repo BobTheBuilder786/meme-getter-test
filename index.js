@@ -1,6 +1,6 @@
 const axios = require('axios').default;
 
-setInterval({ 
+setInterval(
 
     
 
@@ -34,4 +34,4 @@ axios.get('https://meme-api.herokuapp.com/gimme/'+ red)
 
   })
 
-    }, 5000);
+    , 5000);
