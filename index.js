@@ -20,7 +20,7 @@ axios.get('https://meme-api.herokuapp.com/gimme/'+ red)
 
     var url = response.data.url
 
-    var cap = response.dsta.title
+    var cap = response.data.title
 
   
 
